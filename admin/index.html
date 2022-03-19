@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from vegasroleplay.se/admin/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Mar 2022 13:28:18 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vegas Roleplay</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <script type="text/javascript" src="../assets/js/errors.js"></script>
+    <link rel="stylesheet" href="../../stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="../../code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="../../netdna.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+</head>
+<body>
+
+<nav class="navbar-1">
+  <button type="button" class="collapse-button" onclick="openNav();" name="collapse"><i class="fas fa-bars"></i></button>
+  <ul class="navbar-1-collapse" id="navbar-1-collapse">
+  <div class="nav-left">
+      <a href="../index-2.html"><li class="item">Hem</li></a>
+      <a href="../about.html"><li class="item">Om Staffteamet</li></a>
+      <a href="../updates.html"><li class="item">Server Uppdateringar</li></a>
+    </div>
+    <div class="nav-right">
+      <a href="../staff.html"><li class="item">Ansök till staff</li></a>
+      <a href="../chef.html"><li class="item">Ansök till chefsjobb</li></a>
+      <a href="../whitelist.html"><li class="item">Ansök om whitelist</li></a>
+      <a href="index.html"><li class="item">Admin Portal</li></a>
+      <a href="https://discord.gg/roleplayvegas"><li class="item">Discord</li></a>
+    </div>
+  </ul>
+</nav>
+
+
+
+<section class="admin-login">
+  <div class="title"><i class="fas fa-sign-in-alt"></i><br>Logga In</div>
+
+  <div class="admin-login-form">
+    <form action="https://vegasroleplay.se/admin/index.php" method="POST">
+
+      <div class="form-group">
+        <label for="username">Användarnamn</label>
+        <input type="text" class="form-control" name="username" id="username" required />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Lösenord</label>
+        <input type="password" class="form-control" name="password" id="password" required />
+      </div>
+
+      <button type="submit" name="login_btn" class="btn btn-outline-primary">Logga in</button>
+    </form>
+  </div>
+</section>
+
+</body>
+
+<!-- Mirrored from vegasroleplay.se/admin/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 18 Mar 2022 13:28:18 GMT -->
+</html>
